@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>3 Planest</title>
+    <style>
+        *{
+            margin: 0;
+            box-sizing: border-box;
+        }
+        body{
+            height: 100vh;
+            background-color: blue;
+            padding: 10px;
+        }
+        #planes{
+            height: 80%;
+            border: 2px solid white;
+            padding: 5px;
+            border-radius: 5px;
+            display: flex;
+            justify-content: space-around;
+        }
+        .plan{
+            background-color: white;
+            width: 30%;
+            height: 100%;
+            padding: 5px;
+            border-radius: 5px;
+            text-align: center;
+        }
+        h1 {
+            margin-bottom: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 2rem;
+            color: white;
+            text-align: center;
+        }
+        .plan h3{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .plan a{
+            display: inline-block;
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: cyan;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+        .plan a:hover{
+            background-color: blue;
+        }
+        .precio{
+            font-style: italic;
+            font-size: 35px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Elije el plan más adecuado y disfrute de nuestros servicios</h1>
+    <div id="planes">
+        <div class="plan">
+            <h3>Principiante</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. A dolorem odit, eligendi, aliquid nemo at adipisci id eius accusantium saepe rerum fuga quia delectus distinctio accusamus doloribus odio modi dolorum.</p>
+            <p class="precio">1€/mes</p>
+            <a href="#" id="boton">Elegir</a>
+        </div>
+        <div class="plan">
+            <h3>Básico</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid iure ullam facilis dolores, enim perferendis officia reprehenderit vitae ea! Quaerat voluptatum iste numquam, aut praesentium ullam dolore quos necessitatibus sequi!</p>
+            <p class="precio">10€/mes</p>
+            <a href="#" id="boton">Elegir</a>
+        </div>
+        <div class="plan">
+            <h3>Profesional</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur quasi quaerat ad blanditiis alias officiis tenetur sed odio fugiat nesciunt tempore ea ullam, minus, adipisci voluptatibus ipsam, commodi voluptas ut!</p>
+            <p class="precio">25€/mes</p>
+            <a href="#" id="boton">Elegir</a>
+        </div>
+    </div>
+</body>
+</html>
